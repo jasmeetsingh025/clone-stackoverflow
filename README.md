@@ -1,3 +1,20 @@
+# Clone StackOverflow
+
+This project is a **StackOverflow-like application** built using **Next.js** and **Appwrite**. It allows users to post questions, provide answers, comment, and vote on content. The project is designed to mimic the core functionalities of StackOverflow while leveraging modern web technologies.
+
+## Features
+
+- **User Authentication**: Managed using Appwrite's `Account` API.
+- **Question Management**: Users can create, read, and search questions.
+- **Answer Management**: Users can provide answers to questions.
+- **Comments**: Users can comment on questions and answers.
+- **Voting System**: Users can upvote or downvote questions and answers.
+- **File Storage**: Attachments for questions are stored in Appwrite's storage buckets.
+
+## Project Structure
+
+The project is organized as follows:
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
